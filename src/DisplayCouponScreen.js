@@ -10,7 +10,7 @@ class collectCoupon extends React.Component {
 
     copyAndClose = () => {
         navigator.clipboard.writeText(this.props.b);
-        this.props.changeGameMode('Screen1')
+        this.props.changeGameMode('LogInScreen')
     }
 
     render() {

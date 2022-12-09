@@ -4,7 +4,7 @@ import spinwheel from './spinwheel.png'
 import emailicon from './emailicon.png'
 import phoneicon from './phoneicon.png'
 
-import spinWheel from './Screen2';
+import spinWheel from './SpinWheelScreen';
 
 
 
@@ -47,7 +47,7 @@ class initialInfo extends React.Component {
               <div id='rect'></div>
               <div id='para'>I agree to receiving recurring automated messages at the number I have provided.<br></br> Consent is not a condition to purchase.</div>
             </div>
-          <button id='tryluck' onClick={()=> {this.props.changeGameMode('Screen2')}}>Try your luck</button>
+          <button id='tryluck' onClick={()=> {this.props.changeGameMode('SpinWheelScreen')}}>Try your luck</button>
           <div id='terms'>
             <p id='term1'>*You can spin the wheel only once!</p>
             <p id='term2'>*If you win, you can claim your coupon for 10 minutes only!</p>

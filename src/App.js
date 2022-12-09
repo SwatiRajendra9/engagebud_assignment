@@ -1,18 +1,14 @@
 import React from 'react';
 import './App.css';
-import spinwheel from './spinwheel.png'
-import Screen1 from './Screen1.js'
-import Screen2 from './Screen2.js'
-import Screen3 from './Screen3.js'
-import Screen4 from './Screen4.js'
+import LogInScreen from './LogInScreen.js'
+import SpinWheelScreen from './SpinWheelScreen.js'
+import DisplayCouponScreen from './DisplayCouponScreen.js'
 
-var obj;
-let random;
 
 class mainComponent extends React.Component {
   constructor(props){
     super(props);
-    this.state = {'gameMode': 'Screen1', 'couponstring' : 'None', 'couponkey' : 'value'}
+    this.state = {'gameMode': 'LogInScreen', 'couponstring' : 'None', 'couponkey' : 'value'}
   }
 
   //function here pass props down
@@ -33,19 +29,19 @@ class mainComponent extends React.Component {
 
   render() {
     
-    if(this.state.gameMode === 'Screen1') {
+    if(this.state.gameMode === 'LogInScreen') {
     return (
-      <Screen1 changeGameMode={this.changeGameMode}  />
+      <LogInScreen changeGameMode={this.changeGameMode}  />
     )
     }
-    else if(this.state.gameMode === 'Screen2') {
+    else if(this.state.gameMode === 'SpinWheelScreen') {
       return (
-        <Screen2 changeGameMode={this.changeGameMode}  changeCoupon = {this.changeCoupon} changeKey = {this.changeKey}/>
+        <SpinWheelScreen changeGameMode={this.changeGameMode}  changeCoupon = {this.changeCoupon} changeKey = {this.changeKey}/>
       )
     }
-    else if(this.state.gameMode === 'Screen3') {
+    else if(this.state.gameMode === 'DisplayCouponScreen') {
       return (
-        <Screen3 changeGameMode={this.changeGameMode} a={this.state.couponstring} b={this.state.couponkey}/>
+        <DisplayCouponScreen changeGameMode={this.changeGameMode} a={this.state.couponstring} b={this.state.couponkey}/>
       )
     }
       
