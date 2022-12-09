@@ -1,3 +1,5 @@
+/*LogInScreen Desktop*/
+
 html, body , #root {
   height: 100%;
   background-color: #C6EFC8;
@@ -7,9 +9,7 @@ html, body , #root {
   background-image: url("./theme2.png") , url('./theme11.png');
   background-repeat: no-repeat, no-repeat;
   background-position: top, bottom;
-  
   background-size:contain;  
-  
 }
 
 .font-link {
@@ -32,7 +32,7 @@ html, body , #root {
   align-items: center;
 }
 
-#spindiv {
+#spin-div {
   height: 65%;
   width: 50%;
   margin-left: 18%;
@@ -54,7 +54,7 @@ html, body , #root {
 }
 
 
-#inputdiv {
+#input-div {
   height: 60%;
   width: 50%;
   margin-right: 14%;
@@ -66,7 +66,7 @@ html, body , #root {
 
 
 
-#emailouterbox {
+#email-outer-box {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -82,7 +82,7 @@ html, body , #root {
   background-color: white;
 }
 
-#emailicon {
+#email-icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -91,12 +91,12 @@ html, body , #root {
   padding: 0;
 }
 
-#emailiconimg {
+#email-icon-img {
   height: 15px;
   width: 20px;
 }
 
-#emailiddiv {
+#email-id-div {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -106,7 +106,7 @@ html, body , #root {
   
 }
 
-#emailtext {
+#email-text {
   height: 20px;
   width: 250px;
   font-size: 10px;
@@ -122,7 +122,7 @@ html, body , #root {
   
 }
 
-#inputemail {
+#input-email {
   font-family: Roboto;
   color: black;
   font-weight: bolder;
@@ -135,7 +135,7 @@ html, body , #root {
 
 
 
-#phoneouterbox {
+#phone-outer-box {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -151,7 +151,7 @@ html, body , #root {
   background-color: white;
 }
 
-#phoneicon {
+#phone-icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -159,12 +159,12 @@ html, body , #root {
   width: 40px;
 }
 
-#phoneiconimg {
+#phone-icon-img {
   height: 15px;
   width: 20px;
 }
 
-#phoneiddiv {
+#phone-id-div {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -174,7 +174,7 @@ html, body , #root {
   
 }
 
-#phonetext {
+#phone-text {
   height: 20px;
   width: 250px;
   font-size: 10px;
@@ -190,7 +190,7 @@ html, body , #root {
   
 }
 
-#inputphone {
+#input-phone {
   font-family: Roboto;
   color: black;
   font-weight: bolder;
@@ -201,7 +201,7 @@ html, body , #root {
   letter-spacing: 0.8px;
 }
 
-#Iagree {
+#I-agree {
   display: flex ;
   flex-direction: row;
   justify-content: space-evenly;
@@ -227,7 +227,7 @@ html, body , #root {
 }
 
 
-#tryluck {
+#try-luck {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -256,7 +256,7 @@ html, body , #root {
 }
 
 
-#deny {
+#deny-getting-lucky {
   width: 300px;
   display: flex;
   flex-direction: row;
@@ -264,7 +264,7 @@ html, body , #root {
   align-items:center;
 }
 
-#notlucky {
+#not-lucky {
   font-family: Poppins;
   font-weight: bold;
   margin-top: 0;
@@ -281,13 +281,13 @@ html, body , #root {
 
 
 
-/*screen2 styling */
+/*SpinWheelScreen Desktop*/
 
-#maindiv2 {
+#main-div-2 {
   height: 100%;
 }
 
-#wholecomponent {
+#spinning-wheel-component {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -295,13 +295,13 @@ html, body , #root {
   align-items: center;
 }
 
-#wheeldiv {
+#wheel-div {
   position: relative;
   top: 0;
   left: 0;
 }
 
-#rotatingwheel {
+#rotating-wheel {
   height: 400px;
   width: 430px;
   position: relative;
@@ -332,7 +332,7 @@ html, body , #root {
   left: 195px;
 }
 
-#spinbutton {
+#spin-button {
   height: 80px;
   width: 210px;
   margin-bottom: 5%;
@@ -346,28 +346,9 @@ html, body , #root {
 }
 
 
+/*DisplayCouponScreen Desktop */
 
-
-/*
- animation-name: spin;
-  animation-duration: 20ms;
-  animation-iteration-count: 4;
-  animation-timing-function: linear;
-}
-@keyframes spin {
-  from {
-      transform:rotate(0deg);
-  }
-  to {
-      transform:rotate(360deg);
-  }
-} */
-
-
-
-/* Screen 3 styling */
-
-#maindiv3 {
+#main-div-3 {
   height: 100%;
   display: flex;
   flex-direction: row;
@@ -375,7 +356,7 @@ html, body , #root {
   align-items: center;
 }
 
-#spindiv3 {
+#spin-div-3 {
   height: 65%;
   width: 50%;
   margin-left: 18%;
@@ -385,12 +366,12 @@ html, body , #root {
   align-items: center;
 }
 
-#spinwheel3 {
+#spin-wheel-3 {
   height: 400px;
   width: 400px;
 }
 
-#coupondiv {
+#coupon-div {
   height: 50%;
   width: 50%;
   margin-right: 12%;
@@ -408,7 +389,7 @@ html, body , #root {
   
 }
 
-#description {
+#offer-description {
   
   display: flex;
   flex-direction: column;
@@ -423,7 +404,7 @@ html, body , #root {
   margin: 0;
 }
 
-#code {
+#coupon-code-div {
   width: 350px;
   display: flex;
   flex-direction: row;
@@ -431,7 +412,7 @@ html, body , #root {
   align-items: center;
 }
 
-#couponcode {
+#coupon-code {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -460,7 +441,7 @@ html, body , #root {
   font-size: 20px;
 }
 
-#copyclose {
+#copy-close {
   height: 60px;
   width: 330px;
   background-color: #146531;
@@ -473,7 +454,7 @@ html, body , #root {
 
 }
 
-#anotherterm {
+#another-term {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -488,7 +469,7 @@ html, body , #root {
 }
 
 
-/*phone*/
+/*LogInScreen Phone*/
 
 @media only screen and (max-width: 480px) and (min-width : 320px){
   html,body,#root {
@@ -525,7 +506,7 @@ html, body , #root {
 
 
 
-  #spindiv {
+  #spin-div {
     height: 20%;
     width: 100%;
     margin-left: 0;
@@ -541,7 +522,7 @@ html, body , #root {
     width: 180px;
   }
 
-  #inputdiv {
+  #input-div {
     height: 80%;
     width: 100%;
     margin-right: 0;
@@ -560,7 +541,7 @@ html, body , #root {
  
 
 
-#emailouterbox {
+#email-outer-box {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -576,7 +557,7 @@ html, body , #root {
   background-color: white;
 }
 
-#emailicon {
+#email-icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -585,12 +566,12 @@ html, body , #root {
   padding: 0;
 }
 
-#emailiconimg {
+#email-icon-img {
   height: 15px;
   width: 20px;
 }
 
-#emailiddiv {
+#email-id-div {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -600,7 +581,7 @@ html, body , #root {
   
 }
 
-#emailtext {
+#email-text {
   height: 20px;
   width: 250px;
   font-size: 10px;
@@ -616,7 +597,7 @@ html, body , #root {
   
 }
 
-#inputemail {
+#input-email {
   font-family: Roboto;
   color: black;
   font-weight: bolder;
@@ -629,7 +610,7 @@ html, body , #root {
 
 
 
-#phoneouterbox {
+#phone-outer-box {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -645,7 +626,7 @@ html, body , #root {
   background-color: white;
 }
 
-#phoneicon {
+#phone-icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -653,12 +634,12 @@ html, body , #root {
   width: 40px;
 }
 
-#phoneiconimg {
+#phone-icon-img {
   height: 15px;
   width: 20px;
 }
 
-#phoneiddiv {
+#phone-id-div {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -668,7 +649,7 @@ html, body , #root {
   
 }
 
-#phonetext {
+#phone-text {
   height: 20px;
   width: 230px;
   font-size: 10px;
@@ -684,7 +665,7 @@ html, body , #root {
   
 }
 
-#inputphone {
+#input-phone {
   font-family: Roboto;
   color: black;
   font-weight: bolder;
@@ -695,7 +676,7 @@ html, body , #root {
   letter-spacing: 0.8px;
 }
 
-#Iagree {
+#I-agree {
   display: flex ;
   flex-direction: row;
   justify-content: space-evenly;
@@ -723,7 +704,7 @@ html, body , #root {
 }
 
 
-#tryluck {
+#try-luck {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -752,18 +733,18 @@ html, body , #root {
   margin-bottom: 0;
 }
 
-#term1 {
+#term-1 {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-#term2 {
+#term-2 {
   margin-top: 0;
   margin-bottom: 0;
 }
 
 
-#deny {
+#deny-getting-lucky {
   width: 300px;
   display: flex;
   flex-direction: row;
@@ -771,7 +752,7 @@ html, body , #root {
   align-items:center;
 }
 
-#notlucky {
+#not-lucky {
   font-family: Poppins;
   font-weight: bold;
   margin-top: 0;
@@ -787,14 +768,14 @@ html, body , #root {
 }
 
   
-/*screen2 mobile */
+/*SpinWheelScreen Phone */
 
 
-#maindiv2 {
+#main-div-2 {
   height: 100%;
 }
 
-#wholecomponent {
+#spinning-wheel-component {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -802,14 +783,14 @@ html, body , #root {
   align-items: center;
 }
 
-#wheeldiv {
+#wheel-div {
   margin-top: 30%;
   position: relative;
   top: 0;
   left: 0;
 }
 
-#rotatingwheel {
+#rotating-wheel {
   height: 260px;
   width: 280px;
   position: relative;
@@ -839,7 +820,7 @@ html, body , #root {
   left: 125px;
 }
 
-#spinbutton {
+#spin-button {
   margin-bottom: 45%;
   height: 50px;
   width: 140px;
@@ -852,9 +833,9 @@ html, body , #root {
   border-color: transparent;
 } 
 
-/*screen3 phone*/
+/*DisplayCouponScreen Phone*/
 
-#maindiv3 {
+#main-div-3 {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -862,7 +843,7 @@ html, body , #root {
   align-items: center;
 }
 
-#spindiv3 {
+#spin-div-3 {
   height: 20%;
   width: 100%;
   margin-left: 0;
@@ -872,13 +853,13 @@ html, body , #root {
   align-items: center;
 }
 
-#spinwheel3 {
+#spin-wheel-3 {
   margin-bottom: 80px;
   height: 180px;
   width: 180px;
 }
 
-#coupondiv {
+#coupon-div {
   height: 60%;
   width: 100%;
   margin-right: 0;
@@ -896,7 +877,7 @@ html, body , #root {
   margin: 0px;
 }
 
-#description {
+#offer-description {
   
   display: flex;
   flex-direction: column;
@@ -911,7 +892,7 @@ html, body , #root {
   margin: 0;
 }
 
-#code {
+#coupon-code-div {
   width: 280px;
   display: flex;
   flex-direction: row;
@@ -919,7 +900,7 @@ html, body , #root {
   align-items: center;
 }
 
-#couponcode {
+#coupon-code {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -948,7 +929,7 @@ html, body , #root {
   border: transparent;
 }
 
-#copyclose {
+#copy-close {
   height: 50px;
   width: 250px;
   background-color: #146531;
@@ -961,7 +942,7 @@ html, body , #root {
 
 }
 
-#anotherterm {
+#another-term {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -977,6 +958,8 @@ html, body , #root {
 
 
 }
+
+/*LogInScreen Tablet*/
 
 
 @media only screen and (max-width: 1024px) and (min-width : 768px) {
@@ -1012,7 +995,7 @@ html, body , #root {
 
   }
   
-  #spindiv {
+  #spin-div {
     height: 100%;
     width: 50%;
     display: flex;
@@ -1028,7 +1011,7 @@ html, body , #root {
     width: 270px;
   }
 
-  #inputdiv {
+  #input-div {
     height: 55%;
     width: 50%;
     margin-left :35px;
@@ -1047,7 +1030,7 @@ html, body , #root {
 
  
 
-  #emailouterbox {
+  #email-outer-box {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -1063,7 +1046,7 @@ html, body , #root {
     background-color: white;
   }
   
-  #emailicon {
+  #email-icon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1072,12 +1055,12 @@ html, body , #root {
     padding: 0;
   }
   
-  #emailiconimg {
+  #email-iconimg {
     height: 9px;
     width: 13px;
   }
   
-  #emailiddiv {
+  #email-id-div {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -1087,7 +1070,7 @@ html, body , #root {
     
   }
   
-  #emailtext {
+  #email-text {
     height: 20px;
     width: 130px;
     font-size: 8px;
@@ -1103,7 +1086,7 @@ html, body , #root {
     
   }
   
-  #inputemail {
+  #input-email {
     font-family: Roboto;
     color: black;
     font-weight: bolder;
@@ -1116,7 +1099,7 @@ html, body , #root {
   
   
   
-  #phoneouterbox {
+  #phone-outer-box {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -1132,7 +1115,7 @@ html, body , #root {
     background-color: white;
   }
   
-  #phoneicon {
+  #phone-icon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1140,12 +1123,12 @@ html, body , #root {
     width: 30px;
   }
   
-  #phoneiconimg {
+  #phone-icon-img {
     height: 8px;
     width: 13px;
   }
   
-  #phoneiddiv {
+  #phone-id-div {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -1155,7 +1138,7 @@ html, body , #root {
     
   }
   
-  #phonetext {
+  #phone-text {
     height: 20px;
     width: 130px;
     font-size: 8px;
@@ -1172,7 +1155,7 @@ html, body , #root {
     
   }
   
-  #inputphone {
+  #input-phone {
     font-family: Roboto;
     color: black;
     font-weight: bolder;
@@ -1183,7 +1166,7 @@ html, body , #root {
     letter-spacing: 0.8px;
   }
   
-  #Iagree {
+  #I-agree {
     display: flex ;
     flex-direction: row;
     justify-content: space-evenly;
@@ -1208,7 +1191,7 @@ html, body , #root {
   }
   
   
-  #tryluck {
+  #try-luck {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1237,7 +1220,7 @@ html, body , #root {
   }
   
   
-  #deny {
+  #deny-getting-lucky {
     width: 160px;
     display: flex;
     flex-direction: row;
@@ -1245,7 +1228,7 @@ html, body , #root {
     align-items:center;
   }
   
-  #notlucky {
+  #not-lucky {
     font-family: Poppins;
     font-weight: bold;
     margin-top: 0;
@@ -1266,9 +1249,9 @@ html, body , #root {
 
 
 
-  /* Screen2 tab */
+  /*SpinWheelScreen Tablet */
 
-  #maindiv2 {
+  #main-div-2 {
     height: 100%;
     width: 45%;
     display: flex;
@@ -1283,7 +1266,7 @@ html, body , #root {
     margin:0;
   }
   
-  #wholecomponent {
+  #spinning-wheel-component {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -1291,14 +1274,14 @@ html, body , #root {
     align-items: center;
   }
   
-  #wheeldiv {
+  #wheel-div {
     
     position: relative;
     top: 0;
     left: 0;
   }
   
-  #rotatingwheel {
+  #rotating-wheel {
     margin-top: 170px;
     height: 220px;
     width: 240px;
@@ -1329,7 +1312,7 @@ html, body , #root {
     left: 105px;
   }
   
-  #spinbutton {
+  #spin-button {
     height: 50px;
     width: 130px;
     background-color: #146531;
@@ -1342,9 +1325,9 @@ html, body , #root {
     margin-bottom: 170px;
   }
   
-  /*screen3 tab*/
+  /*DisplayCouponScreen Tablet*/
 
-  #maindiv3 {
+  #main-div-3 {
     height: 100%;
     width: 45%;
     display: flex;
@@ -1359,7 +1342,7 @@ html, body , #root {
     margin:0;
   }
   
-  #spindiv3 {
+  #spin-div-3 {
     height: 100%;
     width: 50%;
     display: flex;
@@ -1369,13 +1352,13 @@ html, body , #root {
     margin:0;
   }
   
-  #spinwheel3 {
+  #spin-wheel-3 {
     margin-right: 120px;
     height: 270px;
     width: 270px;
   }
   
-  #coupondiv {
+  #coupon-div {
     height: 45%;
     width: 50%;
     margin-left :35px;
@@ -1395,7 +1378,7 @@ html, body , #root {
     
   }
   
-  #description {
+  #offer-description {
     
     display: flex;
     flex-direction: column;
@@ -1410,7 +1393,7 @@ html, body , #root {
     font-size: 20px;
   }
   
-  #code {
+  #coupon-code-div {
     width: 160px;
     display: flex;
     flex-direction: row;
@@ -1418,7 +1401,7 @@ html, body , #root {
     align-items: center;
   }
   
-  #couponcode {
+  #coupon-code {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1447,7 +1430,7 @@ html, body , #root {
     font-size: 10px;
   }
   
-  #copyclose {
+  #copy-close {
     height: 35px;
     width:140px;
     background-color: #146531;
@@ -1460,7 +1443,7 @@ html, body , #root {
   
   }
   
-  #anotherterm {
+  #another-term {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -1473,17 +1456,6 @@ html, body , #root {
     margin-bottom: 0;
     
   }
-
-
-
-  
-  
-
-
-
-
-
-
 }
 
 

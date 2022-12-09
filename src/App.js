@@ -11,11 +11,9 @@ class mainComponent extends React.Component {
     this.state = {'gameMode': 'LogInScreen', 'couponstring' : 'None', 'couponkey' : 'value'}
   }
 
-  //function here pass props down
   changeGameMode = (screen) => {
     this.setState({gameMode : screen});
   }
-
 
   changeCoupon = (coupon) => {
     this.setState({couponstring : coupon});
@@ -24,8 +22,6 @@ class mainComponent extends React.Component {
   changeKey = (key) => {
     this.setState({couponkey : key})
   }
-
-
 
   render() {
     
@@ -43,13 +39,8 @@ class mainComponent extends React.Component {
       return (
         <DisplayCouponScreen changeGameMode={this.changeGameMode} a={this.state.couponstring} b={this.state.couponkey}/>
       )
-    }
-      
-}
-  
-    
-  
-
+    } 
+  }
 }
 
 export default mainComponent;

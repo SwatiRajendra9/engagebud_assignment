@@ -1,6 +1,6 @@
 import React from "react";
 import './App.css';
-import screen2wheel from './screen2wheel.png'
+import wheelwithoffers from './wheelwithoffers.png'
 import pointer from './pointer.png'
 
 var obj;
@@ -15,6 +15,7 @@ class spinWheel extends React.Component {
         
     }
 
+    // Generates random coupon code
     randomGenerator = () => {
         arr = ['XX7B&','DF9JI','JH8LK','YU3RE','OP6FD','1SXRT']
         obj = {0:'30% sitewide off' , 1:'Buy 1 Get 1 free' , 2:'Free coffee mug on purchase worth 1000+', 3:'Buy 2 effervescent tablets & get 1 free', 4:'Free 50g tea on purchase of Rs.500', 5:'Hot chocolate free with tea'}
@@ -25,23 +26,20 @@ class spinWheel extends React.Component {
         this.props.changeKey(fullCouponName);
         this.props.changeGameMode('DisplayCouponScreen');
         this.props.changeCoupon(obj[random]);
-        
-        
     }
 
 
     
     
     render() {
-        return (
-            
-            <div id='maindiv2'>
-                <div id='wholecomponent'>
-                    <div id='wheeldiv'>
-                        <img id='rotatingwheel' src={screen2wheel} alt={"screen2wheel"}></img>
+        return ( 
+            <div id='main-div-2'>
+                <div id='spinning-wheel-component'>
+                    <div id='wheel-div'>
+                        <img id='rotating-wheel' src={wheelwithoffers} alt={"wheelwithoffers"}></img>
                         <img id='pointer' src={pointer} alt={'pointer'}></img>
                     </div>
-                    <button id='spinbutton' onClick={this.randomGenerator}>SPIN</button>
+                    <button id='spin-button' onClick={this.randomGenerator}>SPIN</button>
                 </div>  
             </div>
         )
