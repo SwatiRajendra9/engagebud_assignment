@@ -301,17 +301,18 @@ html, body , #root {
   left: 0;
 }
 
-#rotating-wheel {
+#motion-div {
   height: 400px;
   width: 430px;
   position: relative;
   top: 0;
   left: 0;
   margin-top: 25%;
-  animation-name: spin;
-  animation-duration: 10000ms;
-  animation-iteration-count: 1;
-  animation-timing-function: linear;
+}
+
+#rotating-wheel {
+  height: 400px;
+  width: 430px;
 }
 
 @keyframes spin {
@@ -790,16 +791,17 @@ html, body , #root {
   left: 0;
 }
 
-#rotating-wheel {
+#motion-div {
   height: 260px;
   width: 280px;
   position: relative;
   top: 0;
   left: 0;
-  animation-name: spin;
-  animation-duration: 10000ms;
-  animation-iteration-count: 1;
-  animation-timing-function: linear;
+}
+
+#rotating-wheel {
+  height: 260px;
+  width: 280px;
 }
 
 @keyframes spin {
@@ -1280,18 +1282,19 @@ html, body , #root {
     top: 0;
     left: 0;
   }
-  
-  #rotating-wheel {
+
+  #motion-div {
     margin-top: 170px;
     height: 220px;
     width: 240px;
     position: relative;
     top: 0;
     left: 0;
-    animation-name: spin;
-    animation-duration: 10000ms;
-    animation-iteration-count: 1;
-    animation-timing-function: linear;
+  }
+  
+  #rotating-wheel {
+    height: 220px;
+    width: 240px;
   }
   
   @keyframes spin {
@@ -1457,7 +1460,6 @@ html, body , #root {
     
   }
 }
-
 
 
 

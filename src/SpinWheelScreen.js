@@ -2,6 +2,7 @@ import React from "react";
 import './App.css';
 import wheelwithoffers from './wheelwithoffers.png'
 import pointer from './pointer.png'
+import { motion } from "framer-motion";
 
 var obj;
 let arr;
@@ -12,7 +13,9 @@ let fullCouponName;
 class spinWheel extends React.Component {
     constructor(props){
         super(props);
-        
+        this.state = {
+            finalRotate: 0
+        }
     }
 
     // Generates random coupon code
@@ -23,9 +26,15 @@ class spinWheel extends React.Component {
         random = Math.floor(Math.random() * objKeys.length);
         randomCouponName = Math.floor(Math.random() * arr.length);
         fullCouponName = arr[randomCouponName] + random;
-        this.props.changeKey(fullCouponName);
-        this.props.changeGameMode('DisplayCouponScreen');
-        this.props.changeCoupon(obj[random]);
+
+        this.setState({finalRotate: 1800 - random * 60})
+        setTimeout(() => 
+            {
+                this.props.changeKey(fullCouponName);
+                this.props.changeGameMode('DisplayCouponScreen');
+                this.props.changeCoupon( obj[random]);
+            }, 
+            11000)
     }
 
 
@@ -36,7 +45,12 @@ class spinWheel extends React.Component {
             <div id='main-div-2'>
                 <div id='spinning-wheel-component'>
                     <div id='wheel-div'>
-                        <img id='rotating-wheel' src={wheelwithoffers} alt={"wheelwithoffers"}></img>
+                    <motion.div id='motion-div' 
+                        initial={{ rotate: 0 }}
+                        animate={{ rotate: this.state.finalRotate }}
+                        transition={{ duration: 10 }}>
+                            <img id='rotating-wheel' src={wheelwithoffers} alt={"wheelwithoffers"}></img>
+                    </motion.div>
                         <img id='pointer' src={pointer} alt={'pointer'}></img>
                     </div>
                     <button id='spin-button' onClick={this.randomGenerator}>SPIN</button>
