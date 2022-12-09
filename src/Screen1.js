@@ -21,7 +21,7 @@ class initialInfo extends React.Component {
           <img id='spinwheel' src={spinwheel} alt={"wheel"}/> 
         </div>
         <div id='inputdiv'>
-          <h1>This is how Engagebud<br></br>looks like in action!</h1>
+          <p id='heading'>This is how EngageBud<br></br>looks like in action!</p>
 
           <div id='emailouterbox'>
             <div id='emailicon'>
