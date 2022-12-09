@@ -1,0 +1,1222 @@
+html, body , #root {
+  height: 100%;
+  background-color: #C6EFC8;
+}
+
+#root {
+  background-image: url("./theme2.png") , url('./theme11.png');
+  background-repeat: no-repeat, no-repeat;
+  background-position: top, bottom;
+  
+  background-size:contain;  
+  
+}
+
+.font-link {
+  font-family: 'Poppins';
+}
+
+.font-link {
+  font-family: 'Noto-Sans';
+}
+
+.font-link {
+  font-family: 'Roboto';
+}
+
+#main {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#spindiv {
+  height: 65%;
+  width: 50%;
+  margin-left: 12%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#spinwheel {
+  height: 450px;
+  width: 450px;
+}
+
+h1 {
+  font-family: Poppins;
+}
+
+
+#inputdiv {
+  height: 65%;
+  width: 50%;
+  margin-right: 12%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items :center;
+}
+
+#terms {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 390px;
+  font-size: 10px;
+  font-family: Noto-Sans;
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+
+#emailouterbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  width: 360px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom: black 1px solid;
+  background-color: white;
+}
+
+#emailicon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  padding: 0;
+}
+
+#emailiconimg {
+  height: 15px;
+  width: 20px;
+}
+
+#emailiddiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  height: 40px;
+  width: 300px;
+  
+}
+
+#emailtext {
+  height: 20px;
+  width: 280px;
+  font-size: 10px;
+  font-family: Roboto;
+  font-weight: bolder;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  letter-spacing: 0.5px;
+  
+}
+
+#inputemail {
+  font-family: Roboto;
+  color: black;
+  font-weight: bolder;
+  height: 30px;
+  width: 280px;
+  border: 0;
+  font-size: 12px;
+  letter-spacing: 0.8px;
+}
+
+
+
+#phoneouterbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  width: 360px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom: black 1px solid;
+  background-color: white;
+}
+
+#phoneicon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+}
+
+#phoneiconimg {
+  height: 15px;
+  width: 20px;
+}
+
+#phoneiddiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  height: 40px;
+  width: 300px;
+  
+}
+
+#phonetext {
+  height: 20px;
+  width: 280px;
+  font-size: 10px;
+  font-family: Roboto;
+  font-weight: bolder;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  letter-spacing: 0.5px;
+  
+}
+
+#inputphone {
+  font-family: Roboto;
+  color: black;
+  font-weight: bolder;
+  height: 30px;
+  width: 280px;
+  border: 0;
+  font-size: 12px;
+  letter-spacing: 0.8px;
+}
+
+#Iagree {
+  display: flex ;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 60px;
+  width: 360px;
+  border: solid 1px black;
+  border-radius: 10px;
+}
+
+#rect {
+  height: 20px;
+  width: 20px;
+  background-color: black;
+}
+
+#para {
+  width: 300px;
+  color: black;
+  font-size: 13px;
+  font-family: Noto-Sans-400;
+}
+
+
+#tryluck {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 360px;
+  background-color: #146531;
+  border-radius: 100px;
+  font-size: 20px;
+  font-weight:bold ;
+  color: white;
+  font-family: Poppins;
+  border: transparent;
+  
+}
+
+
+#deny {
+  width: 360px;
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-end;
+  align-items:center;
+}
+
+#notlucky {
+  font-family: Poppins;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+}
+
+#close {
+  background-color: transparent;
+  border: 0px;
+  font-size: 20px;
+  
+}
+
+
+
+/*screen2 styling */
+
+#maindiv2 {
+  height: 100%;
+}
+
+#wholecomponent {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#wheeldiv {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+#rotatingwheel {
+  height: 420px;
+  width: 450px;
+  position: relative;
+  top: 0;
+  left: 0;
+  animation-name: spin;
+  animation-duration: 10000ms;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+
+@keyframes spin {
+  from {
+      transform:rotate(0deg);
+  }
+  to {
+      transform:rotate(360deg);
+  }
+}
+  
+
+#pointer {
+  height : 40px;
+  width: 30px;
+  position: absolute;
+  top: 180px;
+  left: 210px;
+}
+
+#spinbutton {
+  height: 90px;
+  width: 250px;
+  background-color: #146531;
+  border-radius: 100px;
+  font-size: 40px;
+  font-weight:bold ;
+  color: white;
+  font-family: Poppins;
+  border-color: transparent;
+}
+
+
+
+
+/*
+ animation-name: spin;
+  animation-duration: 20ms;
+  animation-iteration-count: 4;
+  animation-timing-function: linear;
+}
+@keyframes spin {
+  from {
+      transform:rotate(0deg);
+  }
+  to {
+      transform:rotate(360deg);
+  }
+} */
+
+
+
+/* Screen 3 styling */
+
+#maindiv3 {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#spindiv3 {
+  height: 70%;
+  width: 50%;
+  margin-left: 12%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#spinwheel3 {
+  height: 450px;
+  width: 450px;
+}
+
+#coupondiv {
+  height: 50%;
+  width: 50%;
+  margin-right: 12%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items :center;
+}
+
+#congrats {
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0px;
+  
+}
+
+#description {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+
+#offer {
+  width: 100%;
+  margin: 0;
+}
+
+#code {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#couponcode {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+  height: 68px;
+  width: 400px;
+  background: rgba(20, 20, 20, 0.2);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: transparent;
+  font-family: Poppins;
+  font-weight: bold;
+}
+
+#copy {
+  height: 68px;
+  width: 100px;
+  background-color: #146531;
+  color: white;
+  font-family: Poppins;
+  font-weight: bold;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: transparent;
+}
+
+#copyclose {
+  height: 70px;
+  width: 280px;
+  background-color: #146531;
+  color: white;
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 100px;
+  border: transparent;
+
+}
+
+#anotherterm {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 340px;
+  font-size: 11px;
+  font-family: Noto-Sans;
+  font-style: italic;
+  color: #146531;
+  margin-top: 0;
+  margin-bottom: 0;
+  
+}
+
+
+/*phone*/
+
+@media only screen and (max-width: 480px) and (min-width : 320px){
+  html,body,#root {
+    height: 100%;
+    background-color: #C6EFC8;
+  }
+
+  #root {
+    background-image: url("./theme2.png"), url("./theme11.png");
+    background-repeat: no-repeat;
+    background-size: contain;  
+    
+  }
+
+  .font-link {
+    font-family: 'Poppins';
+  }
+  
+  .font-link {
+    font-family: 'Noto-Sans';
+  }
+  
+  .font-link {
+    font-family: 'Roboto';
+  }
+
+  #main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+
+  #spindiv {
+    height: 20%;
+    width: 100%;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #spinwheel {
+    margin-bottom: 70px;
+    height: 200px;
+    width: 200px;
+  }
+
+  #inputdiv {
+    height: 80%;
+    width: 100%;
+    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items :center;
+  }
+
+  h1 {
+    font-size: 25px;
+    margin-bottom: 0;
+    font-family: Poppins;
+  }
+ 
+
+
+
+#emailouterbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  width: 300px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom: black 1px solid;
+  background-color: white;
+}
+
+#emailicon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  padding: 0;
+}
+
+#emailiconimg {
+  height: 15px;
+  width: 20px;
+}
+
+#emailiddiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  height: 40px;
+  width: 250px;
+  
+}
+
+#emailtext {
+  height: 20px;
+  width: 250px;
+  font-size: 10px;
+  font-family: Roboto;
+  font-weight: bolder;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  letter-spacing: 0.5px;
+  
+}
+
+#inputemail {
+  font-family: Roboto;
+  color: black;
+  font-weight: bolder;
+  height: 30px;
+  width: 200px;
+  border: 0;
+  font-size: 12px;
+  letter-spacing: 0.8px;
+}
+
+
+
+#phoneouterbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  width: 300px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom: black 1px solid;
+  background-color: white;
+}
+
+#phoneicon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+}
+
+#phoneiconimg {
+  height: 15px;
+  width: 20px;
+}
+
+#phoneiddiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  height: 40px;
+  width: 250px;
+  
+}
+
+#phonetext {
+  height: 20px;
+  width: 250px;
+  font-size: 10px;
+  font-family: Roboto;
+  font-weight: bolder;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  letter-spacing: 0.5px;
+  
+}
+
+#inputphone {
+  font-family: Roboto;
+  color: black;
+  font-weight: bolder;
+  height: 30px;
+  width: 200px;
+  border: 0;
+  font-size: 12px;
+  letter-spacing: 0.8px;
+}
+
+#Iagree {
+  display: flex ;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 60px;
+  width: 300px;
+  border: solid 1px black;
+  border-radius: 10px;
+}
+
+#rect {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  background-color: black;
+  border-radius: 2px;
+}
+
+#para {
+  width: 280px;
+  color: black;
+  font-size: 12px;
+  font-family: Noto-Sans-400;
+}
+
+
+#tryluck {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 300px;
+  background-color: #146531;
+  border-radius: 100px;
+  font-size: 25px;
+  font-weight:bold ;
+  color: white;
+  font-family: Poppins;
+  border: transparent;
+  
+}
+
+#terms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  font-size: 12px;
+  font-family: Noto-Sans;
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#term1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#term2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+#deny {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items:center;
+}
+
+#notlucky {
+  font-family: Poppins;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+}
+
+#close {
+  background-color: transparent;
+  border: 0px;
+  font-size: 20px;
+  
+}
+
+  
+/*screen2 mobile */
+
+
+#maindiv2 {
+  height: 100%;
+}
+
+#wholecomponent {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#wheeldiv {
+  margin-top: 40%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+#rotatingwheel {
+  height: 260px;
+  width: 280px;
+  position: relative;
+  top: 0;
+  left: 0;
+  animation-name: spin;
+  animation-duration: 10000ms;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+
+@keyframes spin {
+  from {
+      transform:rotate(0deg);
+  }
+  to {
+      transform:rotate(360deg);
+  }
+}
+  
+
+#pointer {
+  height : 40px;
+  width: 30px;
+  position: absolute;
+  top: 110px;
+  left: 125px;
+}
+
+#spinbutton {
+  margin-bottom: 40%;
+  height: 60px;
+  width: 200px;
+  background-color: #146531;
+  border-radius: 100px;
+  font-size: 20px;
+  font-weight:bold ;
+  color: white;
+  font-family: Poppins;
+  border-color: transparent;
+} 
+
+/*screen3 phone*/
+
+#maindiv3 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#spindiv3 {
+  height: 20%;
+  width: 100%;
+  margin-left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#spinwheel3 {
+  margin-bottom: 120px;
+  height: 200px;
+  width: 200px;
+}
+
+#coupondiv {
+  height: 55%;
+  width: 100%;
+  margin-right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items :center;
+  margin-bottom: 25%;
+}
+
+#congrats {
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0px;
+}
+
+#description {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+#offer {
+  font-size: 28px;
+  width: 80%;
+  margin: 0;
+}
+
+#code {
+  width: 280px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#couponcode {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+  height: 82px;
+  width: 300px;
+  background: rgba(20, 20, 20, 0.2);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: transparent;
+  font-family: Poppins;
+  font-weight: bold;
+}
+
+#copy {
+  height: 82px;
+  width: 120px;
+  font-size: 20px;
+  background-color: #146531;
+  color: white;
+  font-family: Poppins;
+  font-weight: bold;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: transparent;
+}
+
+#copyclose {
+  height: 70px;
+  width: 260px;
+  background-color: #146531;
+  color: white;
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 100px;
+  border: transparent;
+
+}
+
+#anotherterm {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 340px;
+  font-size: 11px;
+  font-family: Noto-Sans;
+  font-style: italic;
+  color: #146531;
+  margin-top: 0;
+  margin-bottom: 0;
+  
+}
+
+
+}
+
+
+@media only screen and (max-width: 1024px) and (min-width : 768px) {
+
+  html,body,#root {
+    height: 100%;
+    width: 100%;
+  }
+
+  #root {
+     
+    
+  }
+
+  #main {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #spindiv {
+    height: 70%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #spinwheel {
+    margin-right: 260px;
+    height: 300px;
+    width: 300px;
+  }
+
+  #inputdiv {
+    height: 80%;
+    width: 50%;
+    margin-right: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items :center;
+  }
+
+
+
+
+
+  /* Screen2 tab */
+
+  #maindiv2 {
+    height: 100%;
+  }
+  
+  #wholecomponent {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  #wheeldiv {
+    
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  
+  #rotatingwheel {
+    margin-top: 60px;
+    height: 420px;
+    width: 450px;
+    position: relative;
+    top: 0;
+    left: 0;
+    animation-name: spin;
+    animation-duration: 10000ms;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+  }
+  
+  @keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+  }
+    
+  
+  #pointer {
+    height : 40px;
+    width: 30px;
+    position: absolute;
+    top: 250px;
+    left: 210px;
+  }
+  
+  #spinbutton {
+    height: 70px;
+    width: 200px;
+    background-color: #146531;
+    border-radius: 100px;
+    font-size: 30px;
+    font-weight:bold ;
+    color: white;
+    font-family: Poppins;
+    border-color: transparent;
+    margin-bottom: 60px;
+  }
+  
+  /*screen3 tab*/
+
+  #maindiv3 {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #spindiv3 {
+    height: 70%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #spinwheel3 {
+    margin-right: 300px;
+    height: 300px;
+    width: 300px;
+  }
+  
+  #coupondiv {
+    height: 60%;
+    width: 50%;
+    margin-right: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items :center;
+  }
+  
+  #congrats {
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px;
+    
+  }
+  
+  #description {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+  }
+  
+  #offer {
+    width: 100%;
+    margin: 0;
+  }
+  
+  #code {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  #couponcode {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    height: 72px;
+    width: 400px;
+    background: rgba(20, 20, 20, 0.2);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: transparent;
+    font-family: Poppins;
+    font-weight: bold;
+  }
+  
+  #copy {
+    height: 72px;
+    width: 100px;
+    background-color: #146531;
+    color: white;
+    font-family: Poppins;
+    font-weight: bold;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: transparent;
+  }
+  
+  #copyclose {
+    height: 70px;
+    width: 280px;
+    background-color: #146531;
+    color: white;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 100px;
+    border: transparent;
+  
+  }
+  
+  #anotherterm {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 340px;
+    font-size: 11px;
+    font-family: Noto-Sans;
+    font-style: italic;
+    color: #146531;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+  }
+
+
+
+  
+  
+
+
+
+
+
+
+}
+
+
+
+
