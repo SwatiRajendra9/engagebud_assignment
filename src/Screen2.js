@@ -4,8 +4,10 @@ import screen2wheel from './screen2wheel.png'
 import pointer from './pointer.png'
 
 var obj;
+let arr;
 let random;
-let randomkey;
+let randomcoupon;
+let fullcoupon;
 
 class spinWheel extends React.Component {
     constructor(props){
@@ -14,14 +16,16 @@ class spinWheel extends React.Component {
     }
 
     spinning = () => {
+        arr = ['XX7B&','DF9JI','JH8LK','YU3RE','OP6FD','1SXRT']
         obj = {0:'30% sitewide off' , 1:'Buy 1 Get 1 free' , 2:'Free coffee mug on purchase worth 1000+', 3:'Buy 2 effervescent tablets & get 1 free', 4:'Free 50g tea on purchase of Rs.500', 5:'Hot chocolate free with tea'}
         let a = Object.keys(obj);
         random = Math.floor(Math.random() * a.length);
-        console.log(random);
-        this.props.changeKey(random);
+        randomcoupon = Math.floor(Math.random() * arr.length);
+        fullcoupon = arr[randomcoupon] + random;
+        this.props.changeKey(fullcoupon);
         this.props.changeGameMode('Screen3');
         this.props.changeCoupon(obj[random]);
-       
+        
         
     }
 

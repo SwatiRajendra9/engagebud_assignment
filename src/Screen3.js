@@ -14,7 +14,7 @@ class collectCoupon extends React.Component {
     }
 
     render() {
-        console.log(this.props.a);
+        
         return (
             <div id='maindiv3'>
                 <div id='spindiv3'>
