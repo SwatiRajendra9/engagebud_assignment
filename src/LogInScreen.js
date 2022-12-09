@@ -2,8 +2,8 @@
 import React from 'react';
 import './App.css';
 import spinwheel from './spinwheel.png'
-import emailIcon from './emailIcon.png'
-import phoneIcon from './phoneIcon.png'
+import emailIcon from './emailicon.png'
+import phoneIcon from './phoneicon.png'
 
 
 class initialInfo extends React.Component {
