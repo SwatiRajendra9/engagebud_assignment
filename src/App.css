@@ -400,6 +400,7 @@ html, body , #root {
 }
 
 #offer {
+  text-align: center;
   width: 100%;
   font-family: Poppins;
   margin: 0;
@@ -889,6 +890,7 @@ html, body , #root {
 }
 
 #offer {
+  text-align: center;
   font-size: 28px;
   width: 80%;
   margin: 0;
@@ -1391,6 +1393,7 @@ html, body , #root {
   }
   
   #offer {
+    text-align: center;
     width: 100%;
     margin: 0;
     font-size: 20px;
